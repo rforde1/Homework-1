@@ -1,0 +1,108 @@
+
+/* Element Selectors */
+html,body{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    background-color:#cccccc;
+    border: solid 12px;
+    padding: 10px;
+    width: 400px;
+}
+
+
+header{
+    border-bottom: solid 20px;
+    border-color:#4aaaa5;
+}
+
+
+li.nav-list{
+    margin-right:10px;
+    font-size: 25px;
+    list-style-type: none;
+
+}
+
+
+
+
+/* Class selectors */
+.nav-style{
+    margin-right:10px;
+    list-style-type:none;
+    padding:20px;
+    display: inline-flex;
+    float: right;
+    
+}
+
+.head-color{
+    color:#4aaaa5;
+}
+
+.bio{
+    clear: both;
+}
+
+.p-text-style{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.footer{
+    background-color: #666666;
+    border-top:solid 5px #4aaaa5;
+    clear: both;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -65px;
+    width:100%;
+}
+
+
+
+/* Id selectors */
+
+
+#main-header-style{
+    display: inline-block;
+    font-size:28px;
+    background-color:#4aaaa5;
+    color:white;
+
+}
+
+#bio-image{
+    float: left;
+    width:300px;
+}
+
+#footerp{
+    position: absolute;
+    left: 50%;
+    bottom: -22px;
+    width: 100%;
+    height: 2.5rem;          
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+ 
